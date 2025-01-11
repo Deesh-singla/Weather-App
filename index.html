@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="index.js"></script></head>
+
+<body>
+    <nav>
+        <div id="searchMain">
+            <div id="inputDiv">
+                <input type="text" id="search" placeholder="Enter your city">
+            </div>
+            <div id="submitDiv">
+                <button id="submitBtn">Search</button>
+            </div>
+        </div>
+        <div id="unit">
+            <p id="degIsC"><span id="degC">°C</span>/<span id="degF">°F</span></p>
+        </div>
+    </nav>
+    <div id="city">
+        <div id="left">
+            <h1 id="cityName"></h1>
+            <h2 id="weatherCondition"></h2>
+            <h1 id="temp"></h1>
+            <div id="minMaxTemp">
+                <h3 id="maxTemp"></h3>
+                <h3 id="minTemp"></h3>
+            </div>
+        </div>
+        <div id="right"></div>
+    </div>
+    <div id="moreDetails">
+        <div id="details">
+            <div id="sunrise">
+                <div class="head">SUNRISE</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="sunset">
+                <div class="head">SUNSET</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="chanceOfRain">
+                <div class="head">CHANCE OF RAIN</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="humidity">
+                <div class="head">HUMIDITY</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="windSpeed">
+                <div class="head">WIND SPEED</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="feelsLike">
+                <div class="head">FEELS LIKE</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="precipitation">
+                <div class="head">PRECIPITATION</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="pressure">
+                <div class="head">PRESSURE</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="visibility">
+                <div class="head">VISIBILITY</div>
+                <div class="value">abc</div>
+            </div>
+            <div id="uvIndex">
+                <div class="head">UV INDEX</div>
+                <div class="value">abc</div>
+            </div>
+        </div>
+    </div>
+    <div id="table">
+        <table>
+            <thead>
+                <tr class="tableHead">
+                    <td rowspan="2">DAY</td>
+                    <td rowspan="2">CONDITION</td>
+                    <td rowspan="2">CHANCE OF RAIN</td>
+                    <td rowspan="2">HUMIDITY</td>
+                    <td colspan="2" id="temp">TEMPERATURE</td>
+                </tr>
+                <tr class="tableHead">
+                    <td>MIN</td>
+                    <td>MAX</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</body>
+
+</html>
